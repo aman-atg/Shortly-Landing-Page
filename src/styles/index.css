@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem; }
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 1.4rem; }
+
+h2 {
+  margin-bottom: 1.4rem;
+  font-size: 2.2rem; }
+
+p {
+  margin-bottom: 1.4rem; }
+
+ul {
+  list-style: none; }
+
+@media (max-width: 400px) {
+  .button {
+    font-size: 1rem !important; }
+
+  h2 {
+    font-size: 1.3rem; }
+
+  body {
+    font-size: 10px; } }
+.navbar {
+  align-items: center;
+  color: #9e9aa7;
+  display: flex;
+  font-size: 1.494rem;
+  font-weight: 700; }
+  .navbar ul {
+    display: flex; }
+    .navbar ul li {
+      padding: 1.4rem; }
+  .navbar .nav_Auth {
+    flex: 2;
+    margin-right: 2.8rem; }
+    .navbar .nav_Auth ul {
+      justify-content: flex-end; }
+  .navbar .nav_Body {
+    margin-left: 1.4rem;
+    flex: 3; }
+  .navbar .nav_Brand {
+    margin-left: 1.4rem;
+    flex: 1; }
+
+.wrapper {
+  margin-top: 4.2rem;
+  padding: 0 14rem; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family, sans-serif;
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-weight: $bold-wt;
+  margin-bottom: $space;
+}
+
+h2 {
+  margin-bottom: $space;
+  font-size: $large-font-size;
+}
+
+p {
+  margin-bottom: $space;
+}
+ul {
+  list-style: none;
+}
+
+//media-queries
+@media (max-width: 400px) {
+  .button {
+    font-size: 1rem !important;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  body {
+    font-size: 10px;
+  }
+}

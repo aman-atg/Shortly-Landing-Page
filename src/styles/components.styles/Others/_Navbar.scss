@@ -1,0 +1,35 @@
+.navbar {
+  align-items: center;
+  color: $Grayish-Violet;
+  display: flex;
+  font-size: $base-font-size * 0.83;
+  font-weight: $bold-wt;
+
+  ul {
+    display: flex;
+    li {
+      padding: $space;
+    }
+  }
+  .nav_Auth {
+    flex: 2;
+    margin-right: $space * 2;
+
+    ul {
+      justify-content: flex-end;
+    }
+  }
+  .nav_Body {
+    margin-left: $space;
+    flex: 3;
+  }
+  .nav_Brand {
+    margin-left: $space;
+    flex: 1;
+  }
+}
+
+.wrapper {
+  margin-top: $space * 3;
+  padding: 0 $space * 10;
+}
