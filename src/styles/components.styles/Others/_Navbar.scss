@@ -17,6 +17,9 @@
 
     ul {
       justify-content: flex-end;
+      li {
+        margin-left: $space;
+      }
     }
   }
   .nav_Body {
