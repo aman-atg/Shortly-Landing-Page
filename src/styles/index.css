@@ -48,6 +48,8 @@ ul {
     margin-right: 2.8rem; }
     .navbar .nav_Auth ul {
       justify-content: flex-end; }
+      .navbar .nav_Auth ul li {
+        margin-left: 1.4rem; }
   .navbar .nav_Body {
     margin-left: 1.4rem;
     flex: 3; }
@@ -57,6 +59,48 @@ ul {
 
 .wrapper {
   margin-top: 4.2rem;
-  padding: 0 14rem; }
+  padding: 0 14rem;
+  box-sizing: border-box; }
+
+.primary-btn {
+  background-color: #2acfcf;
+  border-radius: 8rem;
+  color: white;
+  height: 1.7rem;
+  text-align: center;
+  width: 9rem; }
+
+.btn--lg {
+  font-size: 2.2rem;
+  padding: 1rem 5rem; }
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+  overflow: hidden; }
+  .header_Content {
+    display: flex;
+    flex: 1;
+    font-size: 2.2rem;
+    padding-top: 5.6rem;
+    padding-right: 5.6rem; }
+    .header_Content h2 {
+      font-size: 7.48rem;
+      line-height: 8rem;
+      margin-bottom: 0.5rem; }
+  .header_Get-started {
+    margin-top: 5.6rem;
+    font-weight: 700; }
+    .header_Get-started a {
+      text-decoration: none; }
+  .header_SVG {
+    margin-right: -27.5rem; }
+  @media screen and (max-width: 1300px) {
+    .header_Content {
+      flex: none; }
+    .header_SVG {
+      flex: 1; } }
 
 /*# sourceMappingURL=index.css.map */
