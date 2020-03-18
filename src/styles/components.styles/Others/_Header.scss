@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: $space * 5;
+  overflow: hidden;
+
+  &_Content {
+    // align-items: center;
+    display: flex;
+    flex: 1;
+    font-size: $large-font-size;
+    padding-top: $space * 4;
+    padding-right: $space * 4;
+    h2 {
+      font-size: $large-font-size * 3.4;
+      line-height: 8rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  &_Get-started {
+    margin-top: $space * 4;
+    font-weight: $bold-wt;
+    a {
+      text-decoration: none;
+    }
+  }
+  &_SVG {
+    margin-right: -27.5rem;
+  }
+
+  // will write more later.
+  @media screen and (max-width: 1300px) {
+    &_Content {
+      flex: none;
+    }
+    &_SVG {
+      flex: 1;
+      img {
+        // width: 500px;
+      }
+    }
+  }
+}
