@@ -18,3 +18,14 @@
     font-size: $large-font-size * 0.8;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between; // either this or
+  // justify-items will work
+  padding-top: 6rem;
+  margin-top: 0;
+  padding-bottom: 6rem;
+  color: white;
+  background-color: $Very-Dark-Violet;
+}
