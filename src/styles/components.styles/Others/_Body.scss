@@ -1,0 +1,27 @@
+.body {
+  //dlt
+  margin-bottom: 24rem;
+  //
+  //   background-color: lighten($Very-Dark-Blue, 79);
+  background-color: lighten($Very-Dark-Blue, 74);
+  margin-top: -18.5rem;
+  padding-top: 20rem;
+  position: relative;
+  z-index: -1;
+  &_Box {
+    // flex-direction: column;
+    // text-align: center;
+    // margin-top: 0em;
+    &_Fixed {
+      margin: 0 27rem;
+      text-align: center;
+      h1 {
+        font-size: $large-font-size * 1.8;
+      }
+      p {
+        line-height: 3.2rem;
+        color: $Grayish-Violet;
+      }
+    }
+  }
+}

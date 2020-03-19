@@ -150,4 +150,20 @@ input {
   width: 85%;
   height: 7rem; }
 
+.body {
+  margin-bottom: 24rem;
+  background-color: #f4f4f6;
+  margin-top: -18.5rem;
+  padding-top: 20rem;
+  position: relative;
+  z-index: -1; }
+  .body_Box_Fixed {
+    margin: 0 27rem;
+    text-align: center; }
+    .body_Box_Fixed h1 {
+      font-size: 3.96rem; }
+    .body_Box_Fixed p {
+      line-height: 3.2rem;
+      color: #9e9aa7; }
+
 /*# sourceMappingURL=index.css.map */
