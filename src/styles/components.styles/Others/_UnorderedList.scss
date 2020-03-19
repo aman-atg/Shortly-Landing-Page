@@ -1,0 +1,19 @@
+.ul-lists {
+  margin-left: -7.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: $base-font-size * 0.8;
+  ul {
+    margin-left: $space * 5.6;
+    li {
+      line-height: 3.5rem;
+      color: $Gray;
+    }
+  }
+  ul li:nth-child(1) {
+    // background-color: red;
+    color: white;
+    font-weight: $bold-wt;
+    margin-bottom: 1.2rem; //
+  }
+}
