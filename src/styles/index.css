@@ -151,7 +151,6 @@ input {
   height: 7rem; }
 
 .body {
-  margin-bottom: 24rem;
   background-color: #f4f4f6;
   margin-top: -18.5rem;
   padding-top: 20rem;
@@ -216,5 +215,19 @@ input {
       height: 12.6rem;
       width: 2.8rem;
       background-color: red; } }
+
+.footerHeading {
+  background-image: url("/images/bg-boost-desktop.svg");
+  background-color: #3b3054;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 7.5rem; }
+  .footerHeading h1 {
+    font-size: 3.74rem;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem; }
+  .footerHeading span {
+    font-size: 1.76rem; }
 
 /*# sourceMappingURL=index.css.map */
