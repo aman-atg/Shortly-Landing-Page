@@ -18,6 +18,9 @@
       margin-bottom: 0.5rem;
     }
   }
+  p {
+    color: $Grayish-Violet;
+  }
   &_Get-started {
     margin-top: $space * 4;
     font-weight: $bold-wt;
@@ -36,9 +39,6 @@
     }
     &_SVG {
       flex: 1;
-      img {
-        // width: 500px;
-      }
     }
   }
 }
