@@ -230,4 +230,28 @@ input {
   .footerHeading span {
     font-size: 1.76rem; }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6rem;
+  margin-top: 0;
+  padding-bottom: 6rem;
+  color: white;
+  background-color: #232127; }
+
+.ul-lists {
+  margin-left: -7.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.44rem; }
+  .ul-lists ul {
+    margin-left: 7.84rem; }
+    .ul-lists ul li {
+      line-height: 3.5rem;
+      color: #bfbfbf; }
+  .ul-lists ul li:nth-child(1) {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1.2rem; }
+
 /*# sourceMappingURL=index.css.map */
