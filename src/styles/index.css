@@ -166,4 +166,26 @@ input {
       line-height: 3.2rem;
       color: #9e9aa7; }
 
+.cards {
+  margin-top: 10rem;
+  display: flex; }
+
+.card {
+  margin: 1.4rem;
+  max-width: 50rem;
+  background-color: white; }
+  .card .logo {
+    background-color: #3b3054;
+    padding: 2.1rem;
+    border-radius: 100%;
+    margin: -3rem 0 0 3.2rem; }
+  .card_Body {
+    padding: 3.22rem; }
+    .card_Body p {
+      color: #bfbfbf;
+      font-size: 1.404rem; }
+
+.cards_2nd {
+  background-color: red; }
+
 /*# sourceMappingURL=index.css.map */
