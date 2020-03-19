@@ -1,0 +1,39 @@
+.shorten-lnk {
+  background-color: $Dark-Violet;
+  background-image: url("/images/bg-shorten-desktop.svg");
+  overflow: hidden;
+  margin-top: 2.5rem;
+  &_Input-group {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+  }
+  input {
+    flex: 5;
+    color: $Very-Dark-Blue;
+  }
+  span {
+    margin-left: $space * 2;
+    flex: 1;
+    font-size: $base-font-size * 1.1;
+    padding: $space * 2 $space * 2.5;
+    border-radius: $space;
+    font-weight: $bold-wt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.box {
+  overflow: hidden;
+  display: flex;
+  border-radius: 1rem;
+  padding: 5rem 7rem;
+  margin-bottom: 10rem;
+  width: 85%;
+  height: $space * 5;
+}
+
+// for media queries
+//flex-direction: column; and flex 1 1 for both items
+//
