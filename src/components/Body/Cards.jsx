@@ -1,8 +1,5 @@
 import React from "react";
 import Card from "./Card";
-{
-  /* <div class="absolute self-center h-90 w-2 lg:w-8/12 lg:h-2 lg:mt-0 bg-cyan"></div> */
-}
 
 const Cards = () => {
   return (
