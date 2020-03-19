@@ -1,0 +1,32 @@
+.cards {
+  margin-top: 10rem;
+  display: flex;
+  //   justify-content: space-between;
+}
+
+.card {
+  margin: 1.4rem;
+  max-width: 50rem;
+  //   max-height: 33rem;
+  background-color: white;
+  //   padding: $space * 2.5;
+  //   padding: 0 $space * 2.5;
+  .logo {
+    background-color: $Dark-Violet;
+    padding: $space * 1.5;
+    border-radius: 100%;
+    margin: -3rem 0 0 3.2rem;
+  }
+  &_Body {
+    padding: $space * 2.3;
+    // max-width: 50rem;
+    p {
+      color: $Gray;
+      font-size: $base-font-size * 0.78;
+    }
+  }
+}
+.cards_2nd {
+  //   margin-top: 20rem;
+  background-color: red;
+}
