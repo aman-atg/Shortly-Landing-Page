@@ -15,14 +15,26 @@ h1 {
   margin-bottom: 1.4rem; }
 
 h2 {
-  margin-bottom: 1.4rem;
-  font-size: 2.2rem; }
+  font-size: 2.2rem;
+  margin-bottom: 1.4rem; }
 
 p {
   margin-bottom: 1.4rem; }
 
 ul {
   list-style: none; }
+
+input {
+  border: none;
+  border-radius: 1.4rem;
+  font-size: 2.2rem;
+  padding: 2.8rem;
+  box-sizing: border-box; }
+  input:focus {
+    margin: -0.3rem;
+    box-sizing: border-box;
+    outline: none;
+    border: 0.3rem solid #004fbc; }
 
 @media (max-width: 400px) {
   .button {
@@ -60,7 +72,8 @@ ul {
 .wrapper {
   margin-top: 4.2rem;
   padding: 0 14rem;
-  box-sizing: border-box; }
+  overflow: hidden;
+  box-sizing: content-box; }
 
 .primary-btn {
   background-color: #2acfcf;
@@ -106,13 +119,35 @@ ul {
       flex: 1; } }
 
 .shorten-lnk {
-  background-color: red;
+  background-color: #3b3054;
   background-image: url("/images/bg-shorten-desktop.svg");
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  height: 9rem;
-  margin-left: 50px; }
+  overflow: hidden;
+  margin-top: 2.5rem; }
+  .shorten-lnk_Input-group {
+    display: flex;
+    flex: 1;
+    justify-content: space-around; }
   .shorten-lnk input {
-    font-size: 2.2rem; }
+    flex: 5;
+    color: #35323e; }
+  .shorten-lnk span {
+    margin-left: 2.8rem;
+    flex: 1;
+    font-size: 1.98rem;
+    padding: 2.8rem 3.5rem;
+    border-radius: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.box {
+  overflow: hidden;
+  display: flex;
+  border-radius: 1rem;
+  padding: 5rem 7rem;
+  margin-bottom: 10rem;
+  width: 85%;
+  height: 7rem; }
 
 /*# sourceMappingURL=index.css.map */
