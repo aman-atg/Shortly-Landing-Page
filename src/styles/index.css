@@ -238,20 +238,33 @@ input {
   padding-bottom: 6rem;
   color: white;
   background-color: #232127; }
+  .footer .brand {
+    flex: 3; }
 
 .ul-lists {
+  flex: 4;
   margin-left: -7.5rem;
   display: flex;
   justify-content: space-evenly;
-  font-size: 1.44rem; }
+  font-size: 1.23rem; }
   .ul-lists ul {
     margin-left: 7.84rem; }
     .ul-lists ul li {
-      line-height: 3.5rem;
+      line-height: 3.15rem;
       color: #bfbfbf; }
-  .ul-lists ul li:nth-child(1) {
+  .ul-lists ul h4 {
+    font-size: 1.35rem;
     color: white;
     font-weight: 700;
     margin-bottom: 1.2rem; }
+
+.social-icons {
+  margin-top: -0.125rem;
+  margin-left: 8rem;
+  flex: 2; }
+  .social-icons ul {
+    display: flex; }
+    .social-icons ul li {
+      margin: 0 1.1rem; }
 
 /*# sourceMappingURL=index.css.map */
