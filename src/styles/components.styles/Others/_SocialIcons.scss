@@ -1,0 +1,11 @@
+.social-icons {
+  margin-top: -0.125rem;
+  margin-left: 8rem;
+  flex: 2; //
+  ul {
+    display: flex;
+    li {
+      margin: 0 1.1rem;
+    }
+  } //   flex-direction: column;
+}
