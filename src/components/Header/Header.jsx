@@ -17,7 +17,7 @@ const Header = () => {
             links are performing.
           </p>
           <div className="header_Get-started">
-            <a className="primary-btn btn--lg" href="#">
+            <a className="primary-btn btn--lg" href="#link">
               Get Started
             </a>
           </div>
