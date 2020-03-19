@@ -4,9 +4,9 @@ import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer wrapper">
       <div className="brand">
-        <img src="/images/logo.svg" alt="" />
+        <img src="/images/logo-br.svg" alt="BRAND" />
       </div>
       <UnorderedLists />
       <SocialIcons />
