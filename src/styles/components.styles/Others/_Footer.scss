@@ -1,0 +1,20 @@
+.footerHeading {
+  background-image: url("/images/bg-boost-desktop.svg");
+  background-color: $Dark-Violet;
+  //  overflow: hidden;
+  //   margin-left: -1rem;
+  text-align: center;
+  font-weight: $bold-wt;
+  color: white;
+  h1 {
+    font-size: $large-font-size * 1.7;
+    // letter-spacing: 0.0000001rem;
+    // word-spacing: 5rem/10000000;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+  padding-bottom: 7.5rem;
+  span {
+    font-size: $large-font-size * 0.8;
+  }
+}
