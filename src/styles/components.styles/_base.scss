@@ -18,8 +18,8 @@ h1 {
 }
 
 h2 {
-  margin-bottom: $space;
   font-size: $large-font-size;
+  margin-bottom: $space;
 }
 
 p {
@@ -27,6 +27,21 @@ p {
 }
 ul {
   list-style: none;
+}
+
+input {
+  border: none;
+  border-radius: $space;
+  font-size: $large-font-size;
+  padding: $space * 2;
+  box-sizing: border-box;
+  &:focus {
+    margin: -0.3rem;
+    box-sizing: border-box;
+    outline: none;
+    border: 0.3rem solid darken($Light-Blue, 23);
+  }
+  // color: $Gray;
 }
 
 //media-queries
