@@ -72,7 +72,7 @@ ul {
 
 .btn--lg {
   font-size: 2.2rem;
-  padding: 1rem 5rem; }
+  padding: 1.2rem 4rem; }
 
 .header {
   display: flex;
@@ -90,6 +90,8 @@ ul {
       font-size: 7.48rem;
       line-height: 8rem;
       margin-bottom: 0.5rem; }
+  .header p {
+    color: #9e9aa7; }
   .header_Get-started {
     margin-top: 5.6rem;
     font-weight: 700; }
@@ -102,5 +104,15 @@ ul {
       flex: none; }
     .header_SVG {
       flex: 1; } }
+
+.shorten-lnk {
+  background-color: red;
+  background-image: url("/images/bg-shorten-desktop.svg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 9rem;
+  margin-left: 50px; }
+  .shorten-lnk input {
+    font-size: 2.2rem; }
 
 /*# sourceMappingURL=index.css.map */
