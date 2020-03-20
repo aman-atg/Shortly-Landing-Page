@@ -201,6 +201,9 @@ input {
 .Card_Three {
   margin-top: 10rem;
   margin-bottom: 12rem; }
+  .Card_Three img {
+    max-width: 40px;
+    max-height: 40px; }
 
 .center-line {
   position: absolute;

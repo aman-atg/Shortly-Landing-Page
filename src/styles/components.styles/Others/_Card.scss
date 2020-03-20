@@ -39,6 +39,10 @@
 .Card_Three {
   margin-top: 5rem * 2;
   margin-bottom: 12rem;
+  img {
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
 .center-line {
   position: absolute;
