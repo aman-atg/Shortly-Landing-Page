@@ -4,10 +4,19 @@ import Proptypes from "prop-types";
 class ShortenLnk extends React.Component {
   state = {
     url: "",
-    err: ""
+    errMsg: "Please add a link"
   };
+
+  //if err is true
+  /*
+  border => red
+  text => red
+  errMsg => visible
+*/
+
   /// create simple-schema and
   // manage errors
+
   render() {
     const { props, state } = this;
     return (
@@ -32,6 +41,13 @@ class ShortenLnk extends React.Component {
               Shorten It!
             </span>
           </form>
+          {props.err ? (
+            <i id="error">{state.errMsg}</i>
+          ) : (
+            <i id="error" className="hide">
+              {state.errMsg}
+            </i>
+          )}
         </div>
       </div>
     );
