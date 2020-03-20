@@ -36,12 +36,10 @@ input {
   padding: $space * 2;
   box-sizing: border-box;
   &:focus {
-    margin: -0.3rem;
     box-sizing: border-box;
     outline: none;
-    border: 0.3rem solid darken($Light-Blue, 23);
+    box-shadow: 0 0 0 2pt darken($Light-Blue, 23);
   }
-  // color: $Gray;
 }
 
 //media-queries
