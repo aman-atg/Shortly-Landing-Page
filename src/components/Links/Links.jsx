@@ -5,7 +5,8 @@ import UrlSchema from "../../apis/rel-ink-api";
 
 class Links extends Component {
   state = { links: [], err: false, hashId: "" };
-  // render links with an array of Link components
+  // ==================== >>  TODO << ============================
+  // render LinksList comp.(links state will be passed ) which will render all links with warch Link comp.
 
   /// define prop to call that api from api import
   getHash(url) {
