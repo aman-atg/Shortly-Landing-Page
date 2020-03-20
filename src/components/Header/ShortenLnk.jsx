@@ -1,21 +1,19 @@
 import React from "react";
 import Proptypes from "prop-types";
-//make it a class
+
 class ShortenLnk extends React.Component {
   state = {
     url: "",
     errMsg: "Please add a link"
   };
-
-  //if err is true
-  /*
-  border => red
-  text => red
-  errMsg => visible
-*/
-
-  /// create simple-schema and
-  // manage errors
+  InputRef = React.createRef();
+  changeInputId = () => {
+    if (this.props.err) {
+      this.InputRef.current.id = "link-alert";
+    } else {
+      this.InputRef.current.id = "";
+    }
+  };
 
   render() {
     const { props, state } = this;
@@ -24,9 +22,16 @@ class ShortenLnk extends React.Component {
         <div className="shorten-lnk box">
           <form
             className="shorten-lnk_Input-group"
-            onSubmit={e => props.onLinkSubmit(state.url, e)}
+            onSubmit={e => {
+              e.preventDefault();
+              setTimeout(() => {
+                props.onLinkSubmit(state.url);
+                this.changeInputId();
+              }, 500);
+            }}
           >
             <input
+              ref={this.InputRef}
               type="text"
               name="link"
               id="link"
@@ -35,7 +40,13 @@ class ShortenLnk extends React.Component {
               value={state.url}
             />
             <span
-              onClick={() => props.onLinkSubmit(state.url)}
+              onClick={() => {
+                //wow..working with setTimeout only..and even after m not passing any time ...
+                setTimeout(() => {
+                  props.onLinkSubmit(state.url);
+                  this.changeInputId();
+                }, 500);
+              }}
               className="primary-btn btn--lg btn--move"
             >
               Shorten It!
@@ -54,6 +65,7 @@ class ShortenLnk extends React.Component {
   }
 }
 ShortenLnk.propTypes = {
-  onLinkSubmit: Proptypes.func.isRequired
+  onLinkSubmit: Proptypes.func.isRequired,
+  err: Proptypes.bool.isRequired
 };
 export default ShortenLnk;
