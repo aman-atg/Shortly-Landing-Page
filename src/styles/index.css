@@ -132,6 +132,7 @@ input {
     color: #35323e; }
   .shorten-lnk span {
     margin-left: 2.8rem;
+    margin-right: -12.6rem;
     flex: 1;
     font-size: 1.98rem;
     padding: 2.8rem 3.5rem;
@@ -266,5 +267,15 @@ input {
     display: flex; }
     .social-icons ul li {
       margin: 0 1.1rem; }
+
+#error {
+  position: relative;
+  font-size: 1.44rem;
+  color: #f46262;
+  left: -79.5rem;
+  top: 8rem; }
+
+.hide {
+  opacity: 0; }
 
 /*# sourceMappingURL=index.css.map */
