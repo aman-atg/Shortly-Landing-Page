@@ -4,24 +4,25 @@ import ShortenLnk from "../Header/ShortenLnk";
 import UrlSchema from "../../apis/rel-ink-api";
 
 class Links extends Component {
-  state = { links: [], err: false };
+  state = { links: [], err: false, hashId: "" };
+  // render links with an array of Link components
 
   /// define prop to call that api from api import
-  async getHash(url) {
+  getHash(url) {
     // see what would happen without async
     const headers = {
       "Content-Type": "application/json"
     };
-
     axios
       .post("https://rel.ink/api/links/", { url }, headers)
-      .then(res => console.log(res))
+      .then(res => {
+        this.setState({ hashId: res.data.hashid });
+      })
       .catch(err => console.log(err));
-
-    //return hashId from res
+    console.log(this.state.links);
   }
 
-  onLinkSubmit = (url, e) => {
+  onLinkSubmit = url => {
     // ======== >> CHECKING FOR ERR << ==========
     try {
       UrlSchema.validate({ url });
@@ -29,14 +30,25 @@ class Links extends Component {
     } catch {
       this.setState({ err: true });
     }
-
-    if (e !== undefined) e.preventDefault();
-    const hashId = this.getHash(url);
-    this.setState({ links: [{ url, hashId }, ...this.state.links] });
+    if (this.state.err) return;
+    this.getHash(url);
+    setTimeout(() => {
+      const hashId = this.state.hashId;
+      this.setState({ links: [...this.state.links, { url, hashId }] });
+      console.log("time ", new Date().getTime());
+    }, 750);
   };
 
+  showLinks = () => {
+    console.log(this.state.links);
+  };
   render() {
-    return <ShortenLnk onLinkSubmit={this.onLinkSubmit} err={this.state.err} />;
+    return (
+      <div>
+        <ShortenLnk onLinkSubmit={this.onLinkSubmit} err={this.state.err} />
+        {this.showLinks()}
+      </div>
+    );
   }
 }
 
