@@ -31,10 +31,9 @@ input {
   padding: 2.8rem;
   box-sizing: border-box; }
   input:focus {
-    margin: -0.3rem;
     box-sizing: border-box;
     outline: none;
-    border: 0.3rem solid #004fbc; }
+    box-shadow: 0 0 0 2pt #004fbc; }
 
 @media (max-width: 400px) {
   .button {
@@ -277,5 +276,9 @@ input {
 
 .hide {
   opacity: 0; }
+
+#link-alert {
+  color: red;
+  border: 3px solid red; }
 
 /*# sourceMappingURL=index.css.map */
