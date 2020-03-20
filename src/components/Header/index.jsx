@@ -5,7 +5,6 @@ const HeaderIndex = () => {
   return (
     <Fragment>
       <Header />
-      <ShortenLnk />
     </Fragment>
   );
 };
