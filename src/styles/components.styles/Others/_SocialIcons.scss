@@ -4,8 +4,16 @@
   flex: 2; //
   ul {
     display: flex;
+    align-items: center;
     li {
       margin: 0 1.1rem;
     }
-  } //   flex-direction: column;
+  }
+}
+svg {
+  fill: white;
+  &:hover {
+    cursor: pointer;
+    fill: $Cyan;
+  }
 }
