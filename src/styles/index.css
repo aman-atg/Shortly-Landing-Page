@@ -135,22 +135,21 @@ input {
     display: flex;
     flex: 1;
     justify-content: space-around; }
-  .shorten-lnk form {
-    margin-top: 6rem; }
   .shorten-lnk input {
     flex: 5;
     color: #35323e; }
   .shorten-lnk span {
     margin-left: 2.8rem;
     margin-right: -12.6rem;
+    float: right;
     flex: 1;
     font-size: 1.98rem;
-    padding: 1.89rem 2.8rem;
+    padding: 2.38rem 2.8rem;
     border-radius: 0.93333rem;
     font-weight: 700;
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
 
 .box {
   overflow: hidden;
@@ -299,7 +298,7 @@ svg {
   margin: 0;
   margin-top: 2.5rem;
   left: -80.5rem;
-  top: 10.5rem; }
+  top: 5.5rem; }
 
 .hide {
   opacity: 0; }
@@ -307,6 +306,9 @@ svg {
 #link-alert {
   color: red;
   border: 3px solid red; }
+
+#copied {
+  background-color: #3b3054; }
 
 .linksList {
   margin-top: -5rem;
