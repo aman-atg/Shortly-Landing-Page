@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import axios from "axios";
 import ShortenLnk from "../Header/ShortenLnk";
 import UrlSchema from "../../apis/rel-ink-api";
+import LinksList from "./LinksList";
 
 class Links extends Component {
   state = { links: [], err: false, hashId: "" };
   // ==================== >>  TODO << ============================
   // render LinksList comp.(links state will be passed ) which will render all links with warch Link comp.
-
   /// define prop to call that api from api import
+
   getHash(url) {
-    // see what would happen without async
     const headers = {
       "Content-Type": "application/json"
     };
@@ -47,7 +47,7 @@ class Links extends Component {
     return (
       <div>
         <ShortenLnk onLinkSubmit={this.onLinkSubmit} err={this.state.err} />
-        {this.showLinks()}
+        <LinksList links={this.state.links} />
       </div>
     );
   }
