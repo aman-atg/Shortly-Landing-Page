@@ -1,8 +1,10 @@
 .shorten-lnk {
   background-color: $Dark-Violet;
   background-image: url("/images/bg-shorten-desktop.svg");
+  position: relative;
+  top: -8.5rem;
   overflow: hidden;
-  margin-top: 2.5rem;
+  margin-top: 14.5rem;
   &_Input-group {
     display: flex;
     flex: 1;
