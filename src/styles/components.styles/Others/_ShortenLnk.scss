@@ -10,7 +10,14 @@
     flex: 1;
     justify-content: space-around;
   }
+  form {
+    margin-top: 6rem;
+  }
+  // span {
+  //   margin-top: 2rem;
+  // }
   input {
+    // margin-top: 2rem;
     flex: 5;
     color: $Very-Dark-Blue;
   }
@@ -19,8 +26,8 @@
     margin-right: -$space * 9;
     flex: 1;
     font-size: $base-font-size * 1.1;
-    padding: $space * 2 $space * 2.5;
-    border-radius: $space;
+    padding: $space * 1.45 $space * 2;
+    border-radius: $space/1.5;
     font-weight: $bold-wt;
     display: flex;
     justify-content: center;
