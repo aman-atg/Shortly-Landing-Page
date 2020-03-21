@@ -10,9 +10,9 @@
     flex: 1;
     justify-content: space-around;
   }
-  form {
-    margin-top: 6rem;
-  }
+  // form {
+  //   margin-top: 6rem;
+  // }
   // span {
   //   margin-top: 2rem;
   // }
@@ -24,14 +24,16 @@
   span {
     margin-left: $space * 2;
     margin-right: -$space * 9;
+    float: right;
     flex: 1;
     font-size: $base-font-size * 1.1;
-    padding: $space * 1.35 $space * 2;
+    padding: $space * 1.7 $space * 2;
     border-radius: $space/1.5;
     font-weight: $bold-wt;
     display: flex;
-    justify-content: center;
     align-items: center;
+    // padding-left: 4rem;
+    justify-content: center;
   }
 }
 .box {
