@@ -9,6 +9,11 @@
     li {
       line-height: 3.15rem;
       color: $Gray;
+
+      &:hover {
+        color: $Cyan;
+        cursor: pointer;
+      }
     }
   }
   ul h4 {

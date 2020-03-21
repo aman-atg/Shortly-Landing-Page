@@ -31,6 +31,7 @@ class Links extends Component {
     } catch {
       this.setState({ err: true });
     }
+
     if (this.state.err) return;
     this.getHash(url);
     setTimeout(() => {

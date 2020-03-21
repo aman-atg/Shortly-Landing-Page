@@ -16,7 +16,9 @@ const Navbar = () => {
       <div className="nav_Auth">
         <ul>
           <li>Login</li>
-          <li className="SignUp primary-btn">Sign Up</li>
+          <li className="SignUp primary-btn" id="SignUp">
+            Sign Up
+          </li>
         </ul>
       </div>
     </nav>

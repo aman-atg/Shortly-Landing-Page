@@ -40,6 +40,7 @@ class ShortenLnk extends React.Component {
               value={state.url}
             />
             <span
+              tabIndex={1}
               onClick={() => {
                 //wow..working with setTimeout only..and even after m not passing any time ...
                 setTimeout(() => {
