@@ -11,7 +11,9 @@ const Link = props => {
       <div className="url">{url}</div>
       <div className="link-container_ShortUrl">
         <p className="shortUrl">{shortUrl}</p>
-        <p className="primary-btn">Copied!</p>
+        <p tabIndex={1} className="primary-btn">
+          Copied!
+        </p>
       </div>
     </div>
   );

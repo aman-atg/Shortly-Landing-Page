@@ -4,7 +4,9 @@ const FooterHeading = () => {
   return (
     <div className="footerHeading">
       <h1>Boost your links today</h1>
-      <span className="primary-btn btn--lg">Get Started</span>
+      <span tabIndex={2} className="primary-btn btn--lg">
+        Get Started
+      </span>
     </div>
   );
 };
