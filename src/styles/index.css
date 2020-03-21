@@ -280,9 +280,16 @@ input {
   margin-left: 8rem;
   flex: 2; }
   .social-icons ul {
-    display: flex; }
+    display: flex;
+    align-items: center; }
     .social-icons ul li {
       margin: 0 1.1rem; }
+
+svg {
+  fill: white; }
+  svg:hover {
+    cursor: pointer;
+    fill: #2acfcf; }
 
 #error {
   position: relative;
