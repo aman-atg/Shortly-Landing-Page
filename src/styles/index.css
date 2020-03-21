@@ -70,8 +70,7 @@ input {
 
 .wrapper {
   margin-top: 4.2rem;
-  padding: 0 14rem;
-  overflow: hidden;
+  padding: 0 13.16rem;
   box-sizing: content-box; }
 
 .primary-btn {
@@ -101,6 +100,7 @@ input {
     .header_Content h2 {
       font-size: 7.48rem;
       line-height: 8rem;
+      margin-top: 1.55rem;
       margin-bottom: 0.5rem; }
   .header p {
     color: #9e9aa7; }
@@ -120,8 +120,10 @@ input {
 .shorten-lnk {
   background-color: #3b3054;
   background-image: url("/images/bg-shorten-desktop.svg");
+  position: relative;
+  top: -8.5rem;
   overflow: hidden;
-  margin-top: 2.5rem; }
+  margin-top: 14.5rem; }
   .shorten-lnk_Input-group {
     display: flex;
     flex: 1;
@@ -162,7 +164,7 @@ input {
       color: #9e9aa7; }
 
 .linksAndBody {
-  background-color: red;
+  background-color: #f4f4f6;
   z-index: 11;
   position: relative; }
 
