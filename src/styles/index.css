@@ -153,7 +153,7 @@ input {
   height: 7rem; }
 
 .body {
-  padding-top: 20rem; }
+  padding-top: 10rem; }
   .body_Box_Fixed {
     margin: 0 27rem;
     text-align: center; }
@@ -168,7 +168,7 @@ input {
   z-index: 11;
   position: relative; }
 
-.cards {
+.cards_Box {
   margin-top: 9rem;
   display: flex; }
 
@@ -209,8 +209,8 @@ input {
     max-height: 40px; }
 
 .center-line {
-  position: absolute;
-  top: 58.5rem;
+  position: relative;
+  top: 25.5rem;
   left: 20rem;
   z-index: -1;
   background-color: #2acfcf;
