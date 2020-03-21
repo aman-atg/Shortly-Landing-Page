@@ -1,16 +1,14 @@
-.link-container {
-  background-color: red;
-  position: relative;
-  z-index: -1;
-  display: flex;
-  //   margin-bottom: -10rem;
-  p {
-    flex: 5;
-  }
-}
 .linksList {
+  margin-top: -5rem;
   padding: 0 $space * 10;
   position: relative;
   z-index: 105;
   background-color: rebeccapurple;
+}
+.link-container {
+  background-color: red;
+  display: flex;
+  p {
+    flex: 1;
+  }
 }

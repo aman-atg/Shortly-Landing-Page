@@ -148,7 +148,6 @@ input {
   display: flex;
   border-radius: 1rem;
   padding: 5rem 7rem;
-  margin-bottom: 10rem;
   width: 85%;
   height: 7rem; }
 
@@ -287,18 +286,17 @@ input {
   color: red;
   border: 3px solid red; }
 
-.link-container {
-  background-color: red;
-  position: relative;
-  z-index: -1;
-  display: flex; }
-  .link-container p {
-    flex: 5; }
-
 .linksList {
+  margin-top: -5rem;
   padding: 0 14rem;
   position: relative;
   z-index: 105;
   background-color: rebeccapurple; }
+
+.link-container {
+  background-color: red;
+  display: flex; }
+  .link-container p {
+    flex: 1; }
 
 /*# sourceMappingURL=index.css.map */
