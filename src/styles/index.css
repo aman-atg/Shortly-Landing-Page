@@ -151,11 +151,7 @@ input {
   height: 7rem; }
 
 .body {
-  background-color: #f4f4f6;
-  margin-top: -18.5rem;
-  padding-top: 20rem;
-  position: relative;
-  z-index: -1; }
+  padding-top: 20rem; }
   .body_Box_Fixed {
     margin: 0 27rem;
     text-align: center; }
@@ -164,6 +160,11 @@ input {
     .body_Box_Fixed p {
       line-height: 3.2rem;
       color: #9e9aa7; }
+
+.linksAndBody {
+  background-color: red;
+  z-index: 11;
+  position: relative; }
 
 .cards {
   margin-top: 9rem;
