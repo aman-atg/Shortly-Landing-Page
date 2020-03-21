@@ -1,14 +1,34 @@
 .linksList {
   margin-top: -5rem;
-  padding: 0 $space * 10;
+  padding: 0 $space * 9.4;
   position: relative;
   z-index: 105;
-  background-color: rebeccapurple;
 }
 .link-container {
-  background-color: red;
+  overflow: auto;
+  margin-bottom: 1.7rem;
+  padding: 2rem 2rem 0.5rem 3rem;
+  background-color: white;
+  border-radius: 1rem;
   display: flex;
-  p {
-    flex: 1;
+  justify-content: space-between;
+  font-size: $large-font-size * 0.9;
+  .url {
+    padding-top: 0.7rem;
+    color: $Very-Dark-Blue;
+  }
+  .shortUrl {
+    padding-top: 0.7rem;
+  }
+  &_ShortUrl {
+    color: $Cyan;
+    display: flex;
+    .primary-btn {
+      font-size: $base-font-size * 0.9;
+      font-weight: $bold-wt;
+      border-radius: 0.5rem;
+      padding: 1rem 1.25rem 1.75rem 1.25rem;
+      margin-left: 2.5rem;
+    }
   }
 }

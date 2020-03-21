@@ -288,15 +288,32 @@ input {
 
 .linksList {
   margin-top: -5rem;
-  padding: 0 14rem;
+  padding: 0 13.16rem;
   position: relative;
-  z-index: 105;
-  background-color: rebeccapurple; }
+  z-index: 105; }
 
 .link-container {
-  background-color: red;
-  display: flex; }
-  .link-container p {
-    flex: 1; }
+  overflow: auto;
+  margin-bottom: 1.7rem;
+  padding: 2rem 2rem 0.5rem 3rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.98rem; }
+  .link-container .url {
+    padding-top: 0.7rem;
+    color: #35323e; }
+  .link-container .shortUrl {
+    padding-top: 0.7rem; }
+  .link-container_ShortUrl {
+    color: #2acfcf;
+    display: flex; }
+    .link-container_ShortUrl .primary-btn {
+      font-size: 1.62rem;
+      font-weight: 700;
+      border-radius: 0.5rem;
+      padding: 1rem 1.25rem 1.75rem 1.25rem;
+      margin-left: 2.5rem; }
 
 /*# sourceMappingURL=index.css.map */
