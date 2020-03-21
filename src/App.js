@@ -10,8 +10,10 @@ const App = () => {
     <div className="app">
       <NavIndex />
       <HeaderIndex />
-      <LinksIndex />
-      <BodyIndex />
+      <div className="linksAndBody">
+        <LinksIndex />
+        <BodyIndex />
+      </div>
       <FooterIndex />
     </div>
   );

@@ -70,8 +70,7 @@ input {
 
 .wrapper {
   margin-top: 4.2rem;
-  padding: 0 14rem;
-  overflow: hidden;
+  padding: 0 13.16rem;
   box-sizing: content-box; }
 
 .primary-btn {
@@ -101,6 +100,7 @@ input {
     .header_Content h2 {
       font-size: 7.48rem;
       line-height: 8rem;
+      margin-top: 1.55rem;
       margin-bottom: 0.5rem; }
   .header p {
     color: #9e9aa7; }
@@ -120,8 +120,10 @@ input {
 .shorten-lnk {
   background-color: #3b3054;
   background-image: url("/images/bg-shorten-desktop.svg");
+  position: relative;
+  top: -8.5rem;
   overflow: hidden;
-  margin-top: 2.5rem; }
+  margin-top: 14.5rem; }
   .shorten-lnk_Input-group {
     display: flex;
     flex: 1;
@@ -146,16 +148,11 @@ input {
   display: flex;
   border-radius: 1rem;
   padding: 5rem 7rem;
-  margin-bottom: 10rem;
   width: 85%;
   height: 7rem; }
 
 .body {
-  background-color: #f4f4f6;
-  margin-top: -18.5rem;
-  padding-top: 20rem;
-  position: relative;
-  z-index: -1; }
+  padding-top: 10rem; }
   .body_Box_Fixed {
     margin: 0 27rem;
     text-align: center; }
@@ -165,7 +162,12 @@ input {
       line-height: 3.2rem;
       color: #9e9aa7; }
 
-.cards {
+.linksAndBody {
+  background-color: #f4f4f6;
+  z-index: 11;
+  position: relative; }
+
+.cards_Box {
   margin-top: 9rem;
   display: flex; }
 
@@ -206,8 +208,8 @@ input {
     max-height: 40px; }
 
 .center-line {
-  position: absolute;
-  top: 58.5rem;
+  position: relative;
+  top: 25.5rem;
   left: 20rem;
   z-index: -1;
   background-color: #2acfcf;
@@ -284,18 +286,17 @@ input {
   color: red;
   border: 3px solid red; }
 
-.link-container {
-  background-color: red;
-  position: relative;
-  z-index: -1;
-  display: flex; }
-  .link-container p {
-    flex: 5; }
-
 .linksList {
+  margin-top: -5rem;
   padding: 0 14rem;
   position: relative;
   z-index: 105;
   background-color: rebeccapurple; }
+
+.link-container {
+  background-color: red;
+  display: flex; }
+  .link-container p {
+    flex: 1; }
 
 /*# sourceMappingURL=index.css.map */

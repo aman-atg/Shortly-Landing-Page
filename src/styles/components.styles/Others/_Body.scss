@@ -1,9 +1,9 @@
 .body {
-  background-color: lighten($Very-Dark-Blue, 74);
-  margin-top: -18.5rem;
-  padding-top: 20rem;
-  position: relative;
-  z-index: -1;
+  // background-color: lighten($Very-Dark-Blue, 74);
+  // margin-top: -18.5rem;
+  padding-top: 10rem;
+  // position: relative;
+  // z-index: -1;
   &_Box {
     &_Fixed {
       margin: 0 27rem;
@@ -17,4 +17,12 @@
       }
     }
   }
+}
+
+.linksAndBody {
+  background-color: lighten($Very-Dark-Blue, 74);
+  // background-color: yellow;
+  z-index: 11;
+  // top
+  position: relative;
 }

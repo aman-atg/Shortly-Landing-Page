@@ -1,4 +1,4 @@
-.cards {
+.cards_Box {
   margin-top: 9rem;
   display: flex;
 }
@@ -45,8 +45,8 @@
   }
 }
 .center-line {
-  position: absolute;
-  top: 58.5rem;
+  position: relative;
+  top: 25.5rem;
   left: 20rem;
   z-index: -1;
   background-color: $Cyan;
