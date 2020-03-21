@@ -54,6 +54,9 @@ input {
     display: flex; }
     .navbar ul li {
       padding: 1.4rem; }
+      .navbar ul li:hover {
+        color: black;
+        cursor: pointer; }
   .navbar .nav_Auth {
     flex: 2;
     margin-right: 2.8rem; }
@@ -67,6 +70,9 @@ input {
   .navbar .nav_Brand {
     margin-left: 1.4rem;
     flex: 1; }
+
+#SignUp:hover {
+  color: white; }
 
 .wrapper {
   margin-top: 4.2rem;

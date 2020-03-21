@@ -9,6 +9,10 @@
     display: flex;
     li {
       padding: $space;
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
     }
   }
   .nav_Auth {
@@ -30,6 +34,10 @@
     margin-left: $space;
     flex: 1;
   }
+}
+
+#SignUp:hover {
+  color: white;
 }
 
 //wrapper
