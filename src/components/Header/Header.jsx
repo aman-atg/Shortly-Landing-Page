@@ -10,18 +10,18 @@ const Header = () => {
         />
       </div>
       <div className="header_Content">
-        <div className="header_Content_Wrapper">
-          <h2>More than just shorter links</h2>
-          <p>
-            Build your brand's recognition and get detailed insights on how your
-            links are performing.
-          </p>
-          <div className="header_Get-started">
-            <a className="primary-btn btn--lg" href="#link">
-              Get Started
-            </a>
-          </div>
+        {/* <div className="header_Content_Wrapper"> REMOVE EXTRA CONTAINER*/}
+        <h2>More than just shorter links</h2>
+        <p>
+          Build your brand's recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <div className="header_Content_Get-started">
+          <a className="primary-btn btn--lg" href="#link">
+            Get Started
+          </a>
         </div>
+        {/* </div> */}
       </div>
     </div>
   );
