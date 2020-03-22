@@ -41,16 +41,26 @@ input {
     box-shadow: 0 0 0 2pt darken($Light-Blue, 23);
   }
 }
+//class
+.wrapper {
+  margin-top: $space * 3;
+  padding: 0 $space * 9.4;
+  box-sizing: content-box;
+}
 
+// TESTINGGGGGGGGGGGGGGGGGGGGGGG
 //media-queries
-@media (max-width: 400px) {
-  .button {
-    font-size: 1rem !important;
+@media (max-width: 1450px) {
+  html {
+    font-size: 0.9vw;
   }
-  h2 {
-    font-size: 1.3rem;
+}
+@media (max-width: 465px) {
+  html {
+    font-size: 0.5vw;
   }
-  body {
-    font-size: 10px;
+  svg,
+  img {
+    width: 15px;
   }
 }

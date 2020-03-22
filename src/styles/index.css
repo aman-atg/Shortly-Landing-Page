@@ -35,28 +35,33 @@ input {
     outline: none;
     box-shadow: 0 0 0 2pt #004fbc; }
 
-@media (max-width: 400px) {
-  .button {
-    font-size: 1rem !important; }
+.wrapper {
+  margin-top: 4.2rem;
+  padding: 0 13.16rem;
+  box-sizing: content-box; }
 
-  h2 {
-    font-size: 1.3rem; }
+@media (max-width: 1450px) {
+  html {
+    font-size: 0.9vw; } }
+@media (max-width: 465px) {
+  html {
+    font-size: 0.5vw; }
 
-  body {
-    font-size: 10px; } }
+  svg,
+  img {
+    width: 15px; } }
 .navbar {
   align-items: center;
   color: #9e9aa7;
   display: flex;
   font-size: 1.494rem;
   font-weight: 700; }
-  .navbar ul {
-    display: flex; }
-    .navbar ul li {
-      padding: 1.4rem; }
-      .navbar ul li:hover {
-        color: black;
-        cursor: pointer; }
+  .navbar .nav_Brand {
+    margin-left: 1.4rem;
+    flex: 1; }
+  .navbar .nav_Body {
+    flex: 3;
+    margin-left: 1.12rem; }
   .navbar .nav_Auth {
     flex: 2;
     margin-right: 2.8rem; }
@@ -64,21 +69,22 @@ input {
       justify-content: flex-end; }
       .navbar .nav_Auth ul li {
         margin-left: 1.4rem; }
-  .navbar .nav_Body {
-    margin-left: 1.4rem;
-    flex: 3; }
-  .navbar .nav_Brand {
-    margin-left: 1.4rem;
-    flex: 1; }
+  .navbar ul {
+    display: flex; }
+    .navbar ul li {
+      padding: 1.4rem; }
+      .navbar ul li:hover {
+        color: black;
+        cursor: pointer; }
 
-#SignUp:hover {
-  color: white; }
+#SignUp {
+  padding: 1rem; }
+  #SignUp:hover {
+    color: white; }
 
-.wrapper {
-  margin-top: 4.2rem;
-  padding: 0 13.16rem;
-  box-sizing: content-box; }
-
+@media (max-width: 1350px) {
+  .nav_Brand img {
+    width: 10vw; } }
 .primary-btn {
   background-color: #2acfcf;
   border-radius: 8rem;
@@ -104,33 +110,53 @@ input {
   flex-wrap: wrap;
   margin-top: 7rem;
   overflow: hidden; }
-  .header_Content {
-    display: flex;
-    flex: 1;
-    font-size: 2.2rem;
-    padding-top: 5.6rem;
-    padding-right: 5.6rem; }
-    .header_Content h2 {
-      font-size: 7.48rem;
-      color: #35323e;
-      line-height: 8rem;
-      margin-top: 1.55rem;
-      margin-bottom: 0.5rem; }
-  .header p {
-    color: #9e9aa7; }
-  .header_Get-started {
-    margin-top: 5.6rem;
-    font-weight: 700; }
-    .header_Get-started a {
-      text-decoration: none; }
   .header_SVG {
     margin-right: -27.5rem; }
-  @media screen and (max-width: 1300px) {
-    .header_Content {
-      flex: none; }
-    .header_SVG {
-      flex: 1; } }
+  .header_Content {
+    flex: 1;
+    font-size: 2.2rem;
+    padding-right: 5.6rem;
+    padding-top: 5.6rem; }
+    .header_Content h2 {
+      color: #35323e;
+      font-size: 7.48rem;
+      line-height: 8rem;
+      margin-bottom: 0.5rem;
+      margin-top: 1.55rem; }
+    .header_Content p {
+      color: #9e9aa7; }
+    .header_Content_Get-started {
+      margin-top: 5.6rem;
+      font-weight: 700; }
+      .header_Content_Get-started a {
+        text-decoration: none; }
 
+@media (max-width: 1325px) {
+  .header_SVG {
+    flex: 1; }
+    .header_SVG img {
+      width: 50vw; }
+  .header_Content_Get-started {
+    text-align: center;
+    margin-bottom: 2rem; } }
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 10rem;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .header_SVG {
+      margin: 0 auto; }
+    .header_Content {
+      display: block; }
+      .header_Content p {
+        margin: 0 2rem;
+        padding: 2rem;
+        text-align: center;
+        flex: none; }
+      .header_Content h2 {
+        font-size: 7.2rem;
+        text-align: center;
+        flex: 1; } }
 .shorten-lnk {
   background-color: #3b3054;
   background-image: url("/images/bg-shorten-desktop.svg");
