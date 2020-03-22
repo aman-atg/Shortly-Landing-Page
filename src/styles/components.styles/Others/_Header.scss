@@ -3,44 +3,59 @@
   flex-direction: row-reverse;
   flex-wrap: wrap;
   margin-top: $space * 5;
-  overflow: hidden;
+  // overflow: hidden;
 
-  &_Content {
-    // align-items: center;
-    display: flex;
-    flex: 1;
-    font-size: $large-font-size;
-    padding-top: $space * 4;
-    padding-right: $space * 4;
-    h2 {
-      font-size: $large-font-size * 3.4;
-      color: $Very-Dark-Blue;
-      line-height: 8rem;
-      margin-top: 1.55rem;
-      margin-bottom: 0.5rem;
-    }
-  }
-  p {
-    color: $Grayish-Violet;
-  }
-  &_Get-started {
-    margin-top: $space * 4;
-    font-weight: $bold-wt;
-    a {
-      text-decoration: none;
-    }
-  }
+  //div -> img
   &_SVG {
     margin-right: -27.5rem;
   }
 
-  // will write more later.
-  @media screen and (max-width: 1300px) {
+  //div -> h2 , p , header_Content_Get-started : need to fix bottom spacing for small-width
+  &_Content {
+    // display: flex;
+    flex: 1;
+    font-size: $large-font-size;
+    padding-right: $space * 4;
+    padding-top: $space * 4;
+
+    h2 {
+      color: $Very-Dark-Blue;
+      font-size: $large-font-size * 3.4;
+      line-height: $sp * 0.8;
+      margin-bottom: $ssp * 0.5;
+      margin-top: $ssp * 1.55;
+    }
+
+    p {
+      color: $Grayish-Violet;
+    }
+
+    //div -> a
+    &_Get-started {
+      margin-top: $space * 4;
+      font-weight: $bold-wt;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// will write more later
+@media (max-width: 1325px) {
+  .header {
     &_Content {
       flex: none;
     }
+
     &_SVG {
       flex: 1;
+      margin-right: 0;
+      img {
+        // width: 100rem;
+        margin-left: 1vw;
+        // width: 1vw;
+      }
     }
   }
 }
