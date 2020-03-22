@@ -4,8 +4,7 @@
   padding: 0; }
 
 html {
-  font-size: 62.5%;
-  padding-top: 2.5rem; }
+  font-size: 62.5%; }
 
 body {
   font-family: "Poppins", sans-serif;
@@ -167,7 +166,7 @@ input {
   height: 7rem; }
 
 .body {
-  padding-top: 10rem; }
+  padding-top: 6.5rem; }
   .body_Box_Fixed {
     margin: 0 27rem;
     text-align: center; }
