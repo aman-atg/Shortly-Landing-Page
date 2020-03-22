@@ -40,16 +40,6 @@ input {
   padding: 0 13.16rem;
   box-sizing: content-box; }
 
-@media (max-width: 1450px) {
-  html {
-    font-size: 0.9vw; } }
-@media (max-width: 465px) {
-  html {
-    font-size: 0.5vw; }
-
-  svg,
-  img {
-    width: 15px; } }
 .navbar {
   align-items: center;
   color: #9e9aa7;
@@ -131,32 +121,6 @@ input {
       .header_Content_Get-started a {
         text-decoration: none; }
 
-@media (max-width: 1325px) {
-  .header_SVG {
-    flex: 1; }
-    .header_SVG img {
-      width: 50vw; }
-  .header_Content_Get-started {
-    text-align: center;
-    margin-bottom: 2rem; } }
-@media (max-width: 480px) {
-  .header {
-    margin-bottom: 10rem;
-    flex-direction: column;
-    flex-wrap: nowrap; }
-    .header_SVG {
-      margin: 0 auto; }
-    .header_Content {
-      display: block; }
-      .header_Content p {
-        margin: 0 2rem;
-        padding: 2rem;
-        text-align: center;
-        flex: none; }
-      .header_Content h2 {
-        font-size: 7.2rem;
-        text-align: center;
-        flex: 1; } }
 .shorten-lnk {
   background-color: #3b3054;
   background-image: url("/images/bg-shorten-desktop.svg");
