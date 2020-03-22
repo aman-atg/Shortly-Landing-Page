@@ -4,14 +4,8 @@
    <p align="center">This project uses <a href="https://rel.ink"> Relink </a> APIs to shorten links and providing them to the user.  </p >
   <p align="center"> It was a challenge project given by <a href="https://frontendmentor.io"> FrontEndMentor </a> . ( And I really enjoyed it!!!)   </p >
    <p align="center">I used React and SCSS (+ Flexbox) to build this and Login/Signup Button are intentially not workable.</p >
-   <p align="center">  
-
- <img  src="./public/images/Shortly.png">
-</p>
+   <p align="center"> <img  src="./public/images/Shortly.png"> </p>
  
-
-![Shortly](./public/images/Shortly.png)
-
 ## Getting Started
 
 Start by cloning the repo : 
@@ -44,6 +38,9 @@ yarn run dev OR npm run dev
 * [SCSS](https://sass-lang.com) - CSS with superpowers
 * [Javascript](https://www.javascript.com/) - High-level, interpreted programming language
 * [ClipboardJs](https://clipboardjs.com) - A modern approach to copy text to clipboard
+* [UUID](https://www.npmjs.com/package/uuid) - To create Unique IDs
+* [Axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js
+* [SimpleSchema](https://github.com/aldeed/simple-schema-js) - Validates JavaScript objects to ensure they match a schema
 * [HTML](https://www.html.com/) - Standard markup language
 
 ## Authors
@@ -54,3 +51,7 @@ yarn run dev OR npm run dev
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/aman-atg/Shortly-Landing-Page/blob/master/LICENSE) file for details
 
+## Acknowledgements
+
+* [FrontEndMentors](https://frontendmentors.io)
+* [Relink](https://rel.ink)
