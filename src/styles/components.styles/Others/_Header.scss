@@ -3,7 +3,7 @@
   flex-direction: row-reverse;
   flex-wrap: wrap;
   margin-top: $space * 5;
-  // overflow: hidden;
+  overflow: hidden; // this is bc of &_SVG
 
   //div -> img
   &_SVG {
@@ -12,7 +12,6 @@
 
   //div -> h2 , p , header_Content_Get-started : need to fix bottom spacing for small-width
   &_Content {
-    // display: flex;
     flex: 1;
     font-size: $large-font-size;
     padding-right: $space * 4;
@@ -44,9 +43,9 @@
 // will write more later
 @media (max-width: 1325px) {
   .header {
-    &_Content {
-      flex: none;
-    }
+    // &_Content {
+    //   // flex: none;
+    // }
 
     &_SVG {
       flex: 1;
