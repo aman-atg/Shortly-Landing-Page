@@ -46,14 +46,54 @@
     // &_Content {
     //   // flex: none;
     // }
+    //
 
     &_SVG {
       flex: 1;
-      margin-right: 0;
+      // margin-right: 0;
       img {
+        width: 50vw;
         // width: 100rem;
-        margin-left: 1vw;
+        // margin-left: 1vw;
         // width: 1vw;
+      }
+    }
+    &_Content {
+      &_Get-started {
+        // background-color: red;
+        text-align: center;
+        margin-bottom: $ssp * 2;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 10rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    &_SVG {
+      margin: 0 auto;
+      // img {
+      //   // width: 50;
+      // }
+    }
+
+    &_Content {
+      display: block;
+      // background-color: pink;
+      p {
+        margin: 0 2rem;
+        padding: 2rem;
+        text-align: center;
+        // background-color: yellow;
+        flex: none;
+      }
+      h2 {
+        // background-color: blue;
+        font-size: $base-font-size * 4;
+        text-align: center;
+        flex: 1;
       }
     }
   }
