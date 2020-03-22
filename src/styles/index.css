@@ -112,6 +112,7 @@ input {
     padding-right: 5.6rem; }
     .header_Content h2 {
       font-size: 7.48rem;
+      color: #35323e;
       line-height: 8rem;
       margin-top: 1.55rem;
       margin-bottom: 0.5rem; }
@@ -171,7 +172,8 @@ input {
     margin: 0 27rem;
     text-align: center; }
     .body_Box_Fixed h1 {
-      font-size: 3.96rem; }
+      font-size: 3.96rem;
+      color: #35323e; }
     .body_Box_Fixed p {
       line-height: 3.2rem;
       color: #9e9aa7; }
@@ -345,5 +347,18 @@ svg {
       border-radius: 0.5rem;
       padding: 1rem 1.25rem 1.75rem 1.25rem;
       margin-left: 2.5rem; }
+
+.sign {
+  text-align: center;
+  font-size: 1.35rem; }
+  .sign .fa-heart {
+    color: red; }
+  .sign .fa-mug-hot {
+    color: peru;
+    padding-left: 1px; }
+  .sign a {
+    text-decoration: none;
+    color: red;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=index.css.map */
