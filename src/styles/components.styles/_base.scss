@@ -48,19 +48,20 @@ input {
   box-sizing: content-box;
 }
 
-// TESTINGGGGGGGGGGGGGGGGGGGGGGG
-//media-queries
-// @media (max-width: 1220px) {
-//   html {
-//     font-size: 0.9vw;
-//   }
-// }
-// @media (max-width: 465px) {
-//   html {
-//     font-size: 0.5vw;
-//   }
-//   svg,
-//   img {
-//     width: 15px;
-//   }
-// }
+//TESTINGGGGGGGGGGGGGGGGGGGGGGG
+
+@media (max-width: 1350px) and (min-width: 1200px) {
+  html {
+    font-size: 0.65vw;
+  }
+}
+
+@media (max-width: 645px) and (min-width: 320px) {
+  html {
+    font-size: 0.5vw;
+  }
+  svg,
+  img {
+    width: 15px;
+  }
+}

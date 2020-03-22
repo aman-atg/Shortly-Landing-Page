@@ -40,7 +40,11 @@
 }
 
 #SignUp {
-  padding: 1rem;
+  margin-top: 1rem;
+  padding: 0;
+  padding-bottom: 0.6rem;
+  // padding-1top: 0.6rem;
+  height: 1.8rem;
   &:hover {
     color: white;
   }

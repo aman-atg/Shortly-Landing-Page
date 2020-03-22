@@ -1,20 +1,19 @@
 .primary-btn {
   background-color: $Cyan;
+  border: solid 2pt transparent;
   border-radius: 8rem;
   color: white;
-  height: 1.7rem;
+  // height: 1.7rem;
   text-align: center;
   width: 9rem;
-  border: solid 2pt transparent;
+
   &:hover {
     background-color: lighten($color: $Cyan, $amount: 20);
     cursor: pointer;
   }
   &:focus {
-    // border-radius: $space/2;
     outline: none;
     box-shadow: 0 0 0 2pt lighten($Light-Blue, 25);
-    //    border: solid 2pt lighten($Light-Blue, 23);
   }
 }
 .btn--lg {
