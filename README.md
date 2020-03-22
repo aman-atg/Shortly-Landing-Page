@@ -41,6 +41,7 @@ yarn run dev OR npm run dev
 * [UUID](https://www.npmjs.com/package/uuid) - To create Unique IDs
 * [Axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js
 * [SimpleSchema](https://github.com/aldeed/simple-schema-js) - Validates JavaScript objects to ensure they match a schema
+* [FontAwesome](https://fontawesome.com/) - The web's most popular icon set and toolkit
 * [HTML](https://www.html.com/) - Standard markup language
 
 ## Authors
@@ -53,5 +54,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgements
 
-* [FrontEndMentors](https://frontendmentors.io)
+* [FrontEndMentors](https://frontendmentor.io)
 * [Relink](https://rel.ink)
