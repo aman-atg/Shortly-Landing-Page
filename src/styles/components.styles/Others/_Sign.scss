@@ -1,0 +1,18 @@
+.sign {
+  text-align: center;
+  font-size: $base-font-size * 0.75;
+
+  .fa-heart {
+    color: red;
+  }
+  .fa-mug-hot {
+    color: peru;
+    padding-left: 1px;
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+    text-decoration: underline;
+  }
+}
