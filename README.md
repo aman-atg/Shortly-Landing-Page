@@ -1,6 +1,4 @@
 <h2  align="center" > Shortly URL Shortening API Challenge </h2>
-
-
    <p align="center">This project uses <a href="https://rel.ink"> Relink </a> APIs to shorten links and providing them to the user.  </p >
   <p align="center"> It was a challenge project given by <a href="https://frontendmentor.io"> FrontEndMentor </a> . ( And I really enjoyed it!!!)   </p >
    <p align="center">I used React and SCSS (+ Flexbox) to build this and Login/Signup Button are intentially not workable. </p>
