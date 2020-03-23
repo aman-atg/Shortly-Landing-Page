@@ -8,6 +8,8 @@
    <p align="center"> <img  src="./public/images/Shortly.png"> </p>
  
 ## Getting Started
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faman-atg%2FShortly-Landing-Page.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faman-atg%2FShortly-Landing-Page?ref=badge_shield)
+
 
 Start by cloning the repo : 
 ```sh
@@ -52,6 +54,9 @@ yarn run dev OR npm run dev
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/aman-atg/Shortly-Landing-Page/blob/master/LICENSE) file for details
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faman-atg%2FShortly-Landing-Page.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faman-atg%2FShortly-Landing-Page?ref=badge_large)
 
 ## Acknowledgements
 
