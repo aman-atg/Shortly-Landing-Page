@@ -7,6 +7,7 @@
  
 ## Getting Started
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faman-atg%2FShortly-Landing-Page.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faman-atg%2FShortly-Landing-Page?ref=badge_shield)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
 Start by cloning the repo : 
