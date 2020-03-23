@@ -3,7 +3,8 @@
 
    <p align="center">This project uses <a href="https://rel.ink"> Relink </a> APIs to shorten links and providing them to the user.  </p >
   <p align="center"> It was a challenge project given by <a href="https://frontendmentor.io"> FrontEndMentor </a> . ( And I really enjoyed it!!!)   </p >
-   <p align="center">I used React and SCSS (+ Flexbox) to build this and Login/Signup Button are intentially not workable.</p >
+   <p align="center">I used React and SCSS (+ Flexbox) to build this and Login/Signup Button are intentially not workable. </p>
+   <p> Note :- It's not mobile-friendly yet, You might want to write some media-queries or do something in stylesheets to make it right. I would love to merge your PR. <p/>
    <p align="center"> <img  src="./public/images/Shortly.png"> </p>
  
 ## Getting Started
