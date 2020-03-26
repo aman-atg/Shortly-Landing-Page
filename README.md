@@ -27,11 +27,17 @@ Or Download and extract the zip file.
 
 1. Install NPM packages
 ```sh
-npm i OR npm install OR yarn 
+npm i 
+OR
+npm install
+OR
+yarn 
 ```
 2. Run 
 ```sh
-yarn run dev OR npm run dev
+yarn run dev 
+OR
+npm run dev
 ```
 3. Open your browser and go to http://127.0.0.1:3000 OR https://localhost:3000
 
@@ -60,5 +66,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgements
 
-* [FrontEndMentors](https://frontendmentor.io)
+* [FrontEndMentor](https://frontendmentor.io)
 * [Relink](https://rel.ink)
