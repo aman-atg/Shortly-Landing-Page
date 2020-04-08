@@ -232,7 +232,7 @@ input {
   z-index: -1;
   background-color: #2acfcf;
   height: 0.84rem;
-  width: 50%; }
+  width: 70%; }
   @media screen and (max-width: 1300px) {
     .center-line {
       height: 12.6rem;
