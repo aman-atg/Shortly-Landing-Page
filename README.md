@@ -13,7 +13,7 @@
 
 Start by cloning the repo : 
 ```sh
-git clone https://github.com/aman-atg/Short-Link-MeteorReact
+git clone https://github.com/aman-atg/Shortly-landing-page
 ```
 Or Download and extract the zip file.
 
