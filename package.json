@@ -12,7 +12,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
-    "simpl-schema": "^1.5.7",
+    "simpl-schema": "^1.10.2",
     "uuid": "^7.0.2"
   },
   "scripts": {
